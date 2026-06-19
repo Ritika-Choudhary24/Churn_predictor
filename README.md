@@ -77,7 +77,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## Usage
 
 1. Clone or download the repository.
-2. Place `WA_Fn-UseC_-Telco-Customer-Churn.csv` in the same directory as the notebook.
+2. Place the dataset in the same directory as the notebook.
 3. Open the notebook and run all cells top to bottom:
 
 ```bash
