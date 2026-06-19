@@ -4,7 +4,7 @@ A machine learning project that analyzes the IBM Telco Customer Churn dataset to
 
 ## Dataset
 
-**File:** `WA_Fn-UseC_-Telco-Customer-Churn.csv`
+IBM Sample Dataset — publicly available via [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
 
 The dataset contains customer information for a fictional telecom company, including demographics, account details, subscribed services, and a binary churn label.
 
@@ -88,6 +88,4 @@ jupyter notebook Untitled.ipynb
 
 Three classifiers were trained and compared. The **Gradient Boosting Classifier** produces an ROC curve with its AUC displayed in the final plot, serving as the primary benchmark for model performance. Refer to the classification reports inside the notebook for per-class precision, recall, and F1 scores.
 
-## Dataset Source
 
-IBM Sample Dataset — publicly available via [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).
