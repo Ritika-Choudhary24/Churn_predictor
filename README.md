@@ -46,7 +46,7 @@ The dataset contains customer information for a fictional telecom company, inclu
 
 | Model | Library |
 |-------|---------|
-| Logistic Regression| `sklearn.ensemble` |
+| Logistic Regression| `sklearn.linear_model` |
 | Random Forest Classifier | `sklearn.ensemble` |
 | Gradient Boosting Classifier | `sklearn.ensemble` |
 | HistGradient Boosting Classifier | `sklearn.ensemble` |
