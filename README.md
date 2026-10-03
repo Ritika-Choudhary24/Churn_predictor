@@ -21,7 +21,7 @@ The dataset contains customer information for a fictional telecom company, inclu
 
 ```
 .
-├── Untitled.ipynb                        # Main analysis notebook
+├── churn_prediction.ipynb                        # Main analysis notebook
 
 ```
 
@@ -46,16 +46,17 @@ The dataset contains customer information for a fictional telecom company, inclu
 
 | Model | Library |
 |-------|---------|
-| Support Vector Classifier (SVC) | `sklearn.svm` |
+| Logistic Regression| `sklearn.ensemble` |
 | Random Forest Classifier | `sklearn.ensemble` |
 | Gradient Boosting Classifier | `sklearn.ensemble` |
+| HistGradient Boosting Classifier | `sklearn.ensemble` |
 
 ### 5. Evaluation
 Each model is evaluated using:
 - **Accuracy score**
 - **Classification report** (precision, recall, F1-score)
 - **Confusion matrix**
-- **ROC curve & AUC score** (plotted for Gradient Boosting)
+- **ROC curve & AUC score** 
 
 ## Requirements
 
@@ -81,11 +82,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 3. Open the notebook and run all cells top to bottom:
 
 ```bash
-jupyter notebook Untitled.ipynb
+jupyter notebook churn_prediction.ipynb
 ```
 
 ## Results
 
-Three classifiers were trained and compared. The **Gradient Boosting Classifier** produces an ROC curve with its AUC displayed in the final plot, serving as the primary benchmark for model performance. Refer to the classification reports inside the notebook for per-class precision, recall, and F1 scores.
+Four classifiers were trained and compared. Refer to the classification reports inside the notebook for per-class precision, recall, and F1 scores.
 
 
